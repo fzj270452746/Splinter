@@ -1,0 +1,6 @@
+framework module Pods_Splinter {
+  umbrella header "Pods-Splinter-umbrella.h"
+
+  export *
+  module * { export * }
+}
