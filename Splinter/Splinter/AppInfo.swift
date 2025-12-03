@@ -10,7 +10,7 @@ import Foundation
 struct AppInfo {
     static let version = "1.0.0"
     static let buildNumber = "1"
-    static let appName = "Mahjong Splinter"
+    static let appName = "Splinter Mahjong"
     static let developer = "Your Name"
     static let copyright = "© 2025 \(developer). All rights reserved."
     

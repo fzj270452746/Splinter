@@ -11,33 +11,23 @@
 		282363082EDF0DF400D3855C /* AdServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282363072EDF0DF400D3855C /* AdServices.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		2823630A2EDF0DFA00D3855C /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282363092EDF0DFA00D3855C /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		2823630C2EDF0DFE00D3855C /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2823630B2EDF0DFE00D3855C /* StoreKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		283793632EDFDFC200985B34 /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283793622EDFDFC200985B34 /* AppInfo.swift */; };
+		283793742EDFDFC700985B34 /* AppraisalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283793642EDFDFC700985B34 /* AppraisalViewController.swift */; };
+		283793752EDFDFC700985B34 /* TileSpecimen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283793702EDFDFC700985B34 /* TileSpecimen.swift */; };
+		283793762EDFDFC700985B34 /* TileEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2837936C2EDFDFC700985B34 /* TileEntity.swift */; };
+		283793772EDFDFC700985B34 /* KineticOrchestrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2837936F2EDFDFC700985B34 /* KineticOrchestrator.swift */; };
+		283793782EDFDFC700985B34 /* ContestMemorandum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2837936E2EDFDFC700985B34 /* ContestMemorandum.swift */; };
+		283793792EDFDFC700985B34 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283793712EDFDFC700985B34 /* UIColor+Extensions.swift */; };
+		2837937A2EDFDFC700985B34 /* VantageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283793662EDFDFC700985B34 /* VantageViewController.swift */; };
+		2837937B2EDFDFC700985B34 /* PreambleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283793692EDFDFC700985B34 /* PreambleViewController.swift */; };
+		2837937C2EDFDFC700985B34 /* LacerationTrailCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283793722EDFDFC700985B34 /* LacerationTrailCanvas.swift */; };
+		2837937D2EDFDFC700985B34 /* PrincipalMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2837936A2EDFDFC700985B34 /* PrincipalMenuViewController.swift */; };
+		2837937E2EDFDFC700985B34 /* DirectivesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283793672EDFDFC700985B34 /* DirectivesViewController.swift */; };
+		2837937F2EDFDFC700985B34 /* MemorandumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283793682EDFDFC700985B34 /* MemorandumViewController.swift */; };
+		283793802EDFDFC700985B34 /* ContestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283793652EDFDFC700985B34 /* ContestViewController.swift */; };
 		AAE5367B58DE97456B97760A /* Pods_Splinter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B4A6ED5C321A407E077249D /* Pods_Splinter.framework */; };
-		FE9DF2582EDF096900C06B61 /* MainMenuViewController+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9DF2532EDF096900C06B61 /* MainMenuViewController+Layout.swift */; };
-		FE9DF2592EDF096900C06B61 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9DF2492EDF096900C06B61 /* GameViewController.swift */; };
 		FE9DF25A2EDF096900C06B61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9DF2412EDF096900C06B61 /* AppDelegate.swift */; };
-		FE9DF25B2EDF096900C06B61 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9DF2432EDF096900C06B61 /* BaseViewController.swift */; };
-		FE9DF25C2EDF096900C06B61 /* InstructionsViewController+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9DF2502EDF096900C06B61 /* InstructionsViewController+Layout.swift */; };
-		FE9DF25D2EDF096900C06B61 /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9DF2422EDF096900C06B61 /* AppInfo.swift */; };
-		FE9DF25E2EDF096900C06B61 /* GameViewController+Gameplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9DF24A2EDF096900C06B61 /* GameViewController+Gameplay.swift */; };
-		FE9DF25F2EDF096900C06B61 /* GameViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9DF24E2EDF096900C06B61 /* GameViewController+UI.swift */; };
-		FE9DF2602EDF096900C06B61 /* AnimationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9DF2402EDF096900C06B61 /* AnimationHelper.swift */; };
-		FE9DF2612EDF096900C06B61 /* MahjongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9DF2512EDF096900C06B61 /* MahjongView.swift */; };
-		FE9DF2622EDF096900C06B61 /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9DF2442EDF096900C06B61 /* FeedbackViewController.swift */; };
-		FE9DF2632EDF096900C06B61 /* SplinterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9DF2562EDF096900C06B61 /* SplinterModel.swift */; };
-		FE9DF2642EDF096900C06B61 /* GameArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9DF2462EDF096900C06B61 /* GameArchive.swift */; };
-		FE9DF2652EDF096900C06B61 /* GameArchiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9DF2472EDF096900C06B61 /* GameArchiveViewController.swift */; };
-		FE9DF2662EDF096900C06B61 /* FeedbackViewController+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9DF2452EDF096900C06B61 /* FeedbackViewController+Layout.swift */; };
-		FE9DF2672EDF096900C06B61 /* GameViewController+Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9DF24D2EDF096900C06B61 /* GameViewController+Tutorial.swift */; };
-		FE9DF2682EDF096900C06B61 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9DF2572EDF096900C06B61 /* UIColor+Extensions.swift */; };
-		FE9DF2692EDF096900C06B61 /* GameViewController+Touch.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9DF24C2EDF096900C06B61 /* GameViewController+Touch.swift */; };
-		FE9DF26A2EDF096900C06B61 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9DF23E2EDF096900C06B61 /* AboutViewController.swift */; };
-		FE9DF26B2EDF096900C06B61 /* AboutViewController+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9DF23F2EDF096900C06B61 /* AboutViewController+Layout.swift */; };
-		FE9DF26C2EDF096900C06B61 /* GameViewController+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9DF24B2EDF096900C06B61 /* GameViewController+Layout.swift */; };
-		FE9DF26D2EDF096900C06B61 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9DF2522EDF096900C06B61 /* MainMenuViewController.swift */; };
-		FE9DF26E2EDF096900C06B61 /* SliceTrailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9DF2552EDF096900C06B61 /* SliceTrailView.swift */; };
 		FE9DF26F2EDF096900C06B61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9DF2542EDF096900C06B61 /* SceneDelegate.swift */; };
-		FE9DF2702EDF096900C06B61 /* GameArchiveViewController+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9DF2482EDF096900C06B61 /* GameArchiveViewController+Layout.swift */; };
-		FE9DF2712EDF096900C06B61 /* InstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9DF24F2EDF096900C06B61 /* InstructionsViewController.swift */; };
 		FEE238A52ED73F7200432CA8 /* Splinter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FEE2389F2ED73F7200432CA8 /* Splinter.xcdatamodeld */; };
 		FEE238A72ED73F7200432CA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEE238982ED73F7200432CA8 /* Assets.xcassets */; };
 		FEE238A92ED73F7200432CA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEE2389B2ED73F7200432CA8 /* LaunchScreen.storyboard */; };
@@ -49,35 +39,25 @@
 		282363072EDF0DF400D3855C /* AdServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdServices.framework; path = System/Library/Frameworks/AdServices.framework; sourceTree = SDKROOT; };
 		282363092EDF0DFA00D3855C /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		2823630B2EDF0DFE00D3855C /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		283793622EDFDFC200985B34 /* AppInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
+		283793642EDFDFC700985B34 /* AppraisalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppraisalViewController.swift; sourceTree = "<group>"; };
+		283793652EDFDFC700985B34 /* ContestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContestViewController.swift; sourceTree = "<group>"; };
+		283793662EDFDFC700985B34 /* VantageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VantageViewController.swift; sourceTree = "<group>"; };
+		283793672EDFDFC700985B34 /* DirectivesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectivesViewController.swift; sourceTree = "<group>"; };
+		283793682EDFDFC700985B34 /* MemorandumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorandumViewController.swift; sourceTree = "<group>"; };
+		283793692EDFDFC700985B34 /* PreambleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreambleViewController.swift; sourceTree = "<group>"; };
+		2837936A2EDFDFC700985B34 /* PrincipalMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipalMenuViewController.swift; sourceTree = "<group>"; };
+		2837936C2EDFDFC700985B34 /* TileEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileEntity.swift; sourceTree = "<group>"; };
+		2837936E2EDFDFC700985B34 /* ContestMemorandum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContestMemorandum.swift; sourceTree = "<group>"; };
+		2837936F2EDFDFC700985B34 /* KineticOrchestrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KineticOrchestrator.swift; sourceTree = "<group>"; };
+		283793702EDFDFC700985B34 /* TileSpecimen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileSpecimen.swift; sourceTree = "<group>"; };
+		283793712EDFDFC700985B34 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		283793722EDFDFC700985B34 /* LacerationTrailCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LacerationTrailCanvas.swift; sourceTree = "<group>"; };
 		2B4A6ED5C321A407E077249D /* Pods_Splinter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Splinter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C4774BE6B78277455B6D45 /* Pods-Splinter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Splinter.release.xcconfig"; path = "Target Support Files/Pods-Splinter/Pods-Splinter.release.xcconfig"; sourceTree = "<group>"; };
 		E0A816D1DF4A921E0951DFFF /* Pods-Splinter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Splinter.debug.xcconfig"; path = "Target Support Files/Pods-Splinter/Pods-Splinter.debug.xcconfig"; sourceTree = "<group>"; };
-		FE9DF23E2EDF096900C06B61 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
-		FE9DF23F2EDF096900C06B61 /* AboutViewController+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AboutViewController+Layout.swift"; sourceTree = "<group>"; };
-		FE9DF2402EDF096900C06B61 /* AnimationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationHelper.swift; sourceTree = "<group>"; };
 		FE9DF2412EDF096900C06B61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FE9DF2422EDF096900C06B61 /* AppInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
-		FE9DF2432EDF096900C06B61 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
-		FE9DF2442EDF096900C06B61 /* FeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
-		FE9DF2452EDF096900C06B61 /* FeedbackViewController+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedbackViewController+Layout.swift"; sourceTree = "<group>"; };
-		FE9DF2462EDF096900C06B61 /* GameArchive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameArchive.swift; sourceTree = "<group>"; };
-		FE9DF2472EDF096900C06B61 /* GameArchiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameArchiveViewController.swift; sourceTree = "<group>"; };
-		FE9DF2482EDF096900C06B61 /* GameArchiveViewController+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameArchiveViewController+Layout.swift"; sourceTree = "<group>"; };
-		FE9DF2492EDF096900C06B61 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		FE9DF24A2EDF096900C06B61 /* GameViewController+Gameplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameViewController+Gameplay.swift"; sourceTree = "<group>"; };
-		FE9DF24B2EDF096900C06B61 /* GameViewController+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameViewController+Layout.swift"; sourceTree = "<group>"; };
-		FE9DF24C2EDF096900C06B61 /* GameViewController+Touch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameViewController+Touch.swift"; sourceTree = "<group>"; };
-		FE9DF24D2EDF096900C06B61 /* GameViewController+Tutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameViewController+Tutorial.swift"; sourceTree = "<group>"; };
-		FE9DF24E2EDF096900C06B61 /* GameViewController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameViewController+UI.swift"; sourceTree = "<group>"; };
-		FE9DF24F2EDF096900C06B61 /* InstructionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsViewController.swift; sourceTree = "<group>"; };
-		FE9DF2502EDF096900C06B61 /* InstructionsViewController+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InstructionsViewController+Layout.swift"; sourceTree = "<group>"; };
-		FE9DF2512EDF096900C06B61 /* MahjongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MahjongView.swift; sourceTree = "<group>"; };
-		FE9DF2522EDF096900C06B61 /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
-		FE9DF2532EDF096900C06B61 /* MainMenuViewController+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainMenuViewController+Layout.swift"; sourceTree = "<group>"; };
 		FE9DF2542EDF096900C06B61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FE9DF2552EDF096900C06B61 /* SliceTrailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliceTrailView.swift; sourceTree = "<group>"; };
-		FE9DF2562EDF096900C06B61 /* SplinterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplinterModel.swift; sourceTree = "<group>"; };
-		FE9DF2572EDF096900C06B61 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		FEE2387C2ED73F5B00432CA8 /* Splinter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Splinter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEE238982ED73F7200432CA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEE238992ED73F7200432CA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -102,6 +82,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2837936B2EDFDFC700985B34 /* ViewContro */ = {
+			isa = PBXGroup;
+			children = (
+				283793642EDFDFC700985B34 /* AppraisalViewController.swift */,
+				283793652EDFDFC700985B34 /* ContestViewController.swift */,
+				283793662EDFDFC700985B34 /* VantageViewController.swift */,
+				283793672EDFDFC700985B34 /* DirectivesViewController.swift */,
+				283793682EDFDFC700985B34 /* MemorandumViewController.swift */,
+				283793692EDFDFC700985B34 /* PreambleViewController.swift */,
+				2837936A2EDFDFC700985B34 /* PrincipalMenuViewController.swift */,
+			);
+			path = ViewContro;
+			sourceTree = "<group>";
+		};
+		2837936D2EDFDFC700985B34 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				2837936C2EDFDFC700985B34 /* TileEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		283793732EDFDFC700985B34 /* Cont */ = {
+			isa = PBXGroup;
+			children = (
+				2837936E2EDFDFC700985B34 /* ContestMemorandum.swift */,
+				2837936F2EDFDFC700985B34 /* KineticOrchestrator.swift */,
+				283793702EDFDFC700985B34 /* TileSpecimen.swift */,
+				283793712EDFDFC700985B34 /* UIColor+Extensions.swift */,
+				283793722EDFDFC700985B34 /* LacerationTrailCanvas.swift */,
+			);
+			path = Cont;
+			sourceTree = "<group>";
+		};
 		4C7C218B9B0238EBBFF254B4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,30 +165,10 @@
 				FEE2389B2ED73F7200432CA8 /* LaunchScreen.storyboard */,
 				FEE2389D2ED73F7200432CA8 /* Main.storyboard */,
 				FEE2389F2ED73F7200432CA8 /* Splinter.xcdatamodeld */,
-				FE9DF23E2EDF096900C06B61 /* AboutViewController.swift */,
-				FE9DF23F2EDF096900C06B61 /* AboutViewController+Layout.swift */,
-				FE9DF2402EDF096900C06B61 /* AnimationHelper.swift */,
-				FE9DF2422EDF096900C06B61 /* AppInfo.swift */,
-				FE9DF2432EDF096900C06B61 /* BaseViewController.swift */,
-				FE9DF2442EDF096900C06B61 /* FeedbackViewController.swift */,
-				FE9DF2452EDF096900C06B61 /* FeedbackViewController+Layout.swift */,
-				FE9DF2462EDF096900C06B61 /* GameArchive.swift */,
-				FE9DF2472EDF096900C06B61 /* GameArchiveViewController.swift */,
-				FE9DF2482EDF096900C06B61 /* GameArchiveViewController+Layout.swift */,
-				FE9DF2492EDF096900C06B61 /* GameViewController.swift */,
-				FE9DF24A2EDF096900C06B61 /* GameViewController+Gameplay.swift */,
-				FE9DF24B2EDF096900C06B61 /* GameViewController+Layout.swift */,
-				FE9DF24C2EDF096900C06B61 /* GameViewController+Touch.swift */,
-				FE9DF24D2EDF096900C06B61 /* GameViewController+Tutorial.swift */,
-				FE9DF24E2EDF096900C06B61 /* GameViewController+UI.swift */,
-				FE9DF24F2EDF096900C06B61 /* InstructionsViewController.swift */,
-				FE9DF2502EDF096900C06B61 /* InstructionsViewController+Layout.swift */,
-				FE9DF2512EDF096900C06B61 /* MahjongView.swift */,
-				FE9DF2522EDF096900C06B61 /* MainMenuViewController.swift */,
-				FE9DF2532EDF096900C06B61 /* MainMenuViewController+Layout.swift */,
-				FE9DF2552EDF096900C06B61 /* SliceTrailView.swift */,
-				FE9DF2562EDF096900C06B61 /* SplinterModel.swift */,
-				FE9DF2572EDF096900C06B61 /* UIColor+Extensions.swift */,
+				2837936B2EDFDFC700985B34 /* ViewContro */,
+				2837936D2EDFDFC700985B34 /* Entity */,
+				283793732EDFDFC700985B34 /* Cont */,
+				283793622EDFDFC200985B34 /* AppInfo.swift */,
 			);
 			path = Splinter;
 			sourceTree = "<group>";
@@ -300,32 +294,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE9DF2582EDF096900C06B61 /* MainMenuViewController+Layout.swift in Sources */,
-				FE9DF2592EDF096900C06B61 /* GameViewController.swift in Sources */,
 				FE9DF25A2EDF096900C06B61 /* AppDelegate.swift in Sources */,
-				FE9DF25B2EDF096900C06B61 /* BaseViewController.swift in Sources */,
-				FE9DF25C2EDF096900C06B61 /* InstructionsViewController+Layout.swift in Sources */,
-				FE9DF25D2EDF096900C06B61 /* AppInfo.swift in Sources */,
-				FE9DF25E2EDF096900C06B61 /* GameViewController+Gameplay.swift in Sources */,
-				FE9DF25F2EDF096900C06B61 /* GameViewController+UI.swift in Sources */,
-				FE9DF2602EDF096900C06B61 /* AnimationHelper.swift in Sources */,
-				FE9DF2612EDF096900C06B61 /* MahjongView.swift in Sources */,
-				FE9DF2622EDF096900C06B61 /* FeedbackViewController.swift in Sources */,
-				FE9DF2632EDF096900C06B61 /* SplinterModel.swift in Sources */,
-				FE9DF2642EDF096900C06B61 /* GameArchive.swift in Sources */,
-				FE9DF2652EDF096900C06B61 /* GameArchiveViewController.swift in Sources */,
-				FE9DF2662EDF096900C06B61 /* FeedbackViewController+Layout.swift in Sources */,
-				FE9DF2672EDF096900C06B61 /* GameViewController+Tutorial.swift in Sources */,
-				FE9DF2682EDF096900C06B61 /* UIColor+Extensions.swift in Sources */,
-				FE9DF2692EDF096900C06B61 /* GameViewController+Touch.swift in Sources */,
-				FE9DF26A2EDF096900C06B61 /* AboutViewController.swift in Sources */,
-				FE9DF26B2EDF096900C06B61 /* AboutViewController+Layout.swift in Sources */,
-				FE9DF26C2EDF096900C06B61 /* GameViewController+Layout.swift in Sources */,
-				FE9DF26D2EDF096900C06B61 /* MainMenuViewController.swift in Sources */,
-				FE9DF26E2EDF096900C06B61 /* SliceTrailView.swift in Sources */,
+				283793632EDFDFC200985B34 /* AppInfo.swift in Sources */,
+				283793742EDFDFC700985B34 /* AppraisalViewController.swift in Sources */,
+				283793752EDFDFC700985B34 /* TileSpecimen.swift in Sources */,
+				283793762EDFDFC700985B34 /* TileEntity.swift in Sources */,
+				283793772EDFDFC700985B34 /* KineticOrchestrator.swift in Sources */,
+				283793782EDFDFC700985B34 /* ContestMemorandum.swift in Sources */,
+				283793792EDFDFC700985B34 /* UIColor+Extensions.swift in Sources */,
+				2837937A2EDFDFC700985B34 /* VantageViewController.swift in Sources */,
+				2837937B2EDFDFC700985B34 /* PreambleViewController.swift in Sources */,
+				2837937C2EDFDFC700985B34 /* LacerationTrailCanvas.swift in Sources */,
+				2837937D2EDFDFC700985B34 /* PrincipalMenuViewController.swift in Sources */,
+				2837937E2EDFDFC700985B34 /* DirectivesViewController.swift in Sources */,
+				2837937F2EDFDFC700985B34 /* MemorandumViewController.swift in Sources */,
+				283793802EDFDFC700985B34 /* ContestViewController.swift in Sources */,
 				FE9DF26F2EDF096900C06B61 /* SceneDelegate.swift in Sources */,
-				FE9DF2702EDF096900C06B61 /* GameArchiveViewController+Layout.swift in Sources */,
-				FE9DF2712EDF096900C06B61 /* InstructionsViewController.swift in Sources */,
 				FEE238A52ED73F7200432CA8 /* Splinter.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,7 +345,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEPLOYMENT_POSTPROCESSING = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
@@ -402,7 +386,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEPLOYMENT_POSTPROCESSING = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
